@@ -12,9 +12,17 @@ UserDate=0
 
 while opcion != 5:
 
-    opcion= int(input('Digite la opcion del Menu: '))
     
+    
+    
+    opcion = int(input("Digita una opción:  "))
+    if(opcion == 1):
+        nombre = input("Digita tu nombre:  ")
+        fechaNacimiento = int(input("Digita año de nacimiento:  "))
+
     if(opcion==2):
         UserDate=int(input("Digita el año de nacimiento: "))
-        edad = (2022-UserDate)
+        edad = (2022-fechaNacimiento)
         print("La edad es: ",edad)
+
+    
