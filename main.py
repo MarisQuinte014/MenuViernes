@@ -8,34 +8,6 @@ opcion = 100
 
 while opcion != 5:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     print("*************** Cuantos Años Tendras en 2030 ***************")
 
     edadActual = int(input("Digite en que año nacio: "))
@@ -43,7 +15,7 @@ while opcion != 5:
 
     calculo = edadFutura - edadActual
 
-    print("La edad que vas a tener en el 2030 es: ", calculo)
+    print("La edad que vas a tener en el 2030 es: ", calculo, " Años")
  
 
 
