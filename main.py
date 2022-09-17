@@ -7,3 +7,6 @@ print(f'---Digita 5 para Salir---')
 opcion = 100
 
 while opcion != 5:
+
+    if(opcion==3):
+        print("BUNAS NOCHES")
