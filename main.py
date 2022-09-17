@@ -7,3 +7,6 @@ print(f'---Digita 5 para Salir---')
 opcion = 100
 
 while opcion != 5:
+    opcion = int(input("Digite la opcion que desee: "))
+    if(opcion == 5):
+        print('Terminaste el menu !ADIOS¡')
