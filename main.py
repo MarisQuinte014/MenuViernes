@@ -49,3 +49,7 @@ while opcion != 5:
 
 
 
+    opcion = int(input("Digita una opción:  "))
+    if(opcion == 1):
+        nombre = input("Digita tu nombre:  ")
+        fechaNacimiento = int(input("Digita año de nacimiento:  "))
