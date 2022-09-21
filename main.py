@@ -7,6 +7,20 @@ print(f'---Digita 5 para Salir---')
 opcion = 100
 
 while opcion != 5:
+
+    print("*************** Cuantos Años Tendras en 2030 ***************")
+
+    edadActual = int(input("Digite en que año nacio: "))
+    edadFutura = 2030
+
+    calculo = edadFutura - edadActual
+
+    print("La edad que vas a tener en el 2030 es: ", calculo, " Años")
+ 
+
+
+
+
     opcion = int(input("Digita una opción:  "))
     if(opcion == 1):
         nombre = input("Digita tu nombre:  ")
